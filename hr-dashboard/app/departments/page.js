@@ -54,7 +54,7 @@ export default async function DepartmentsPage() {
             <tr key={d.department_id}>
               <td>{d.department_id}</td>
               <td>{d.department_name}</td>
-              <td>{d.location}</td>
+              <td>{   d.location}</td>
             </tr>
           ))}
         </tbody>
